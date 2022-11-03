@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl2 %}
+{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
 
 
 <div>
@@ -81,7 +81,7 @@ layout: default
   moment.locale('fr');
 
   // parse CSV to JSON
-  Papa.parse("{{ site.baseurl2 }}{{ page.calendar_csv }}", {
+  Papa.parse("{{ site.baseurl }}/{{ page.calendar_csv }}", {
     download: true,
     header: false,
     complete: function(results) {
