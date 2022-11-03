@@ -1,0 +1,70 @@
+# Site
+name: 'PERMIS'
+description: 'Plateforme Expérimentale en Robotique Mobile Intelligente et Systems.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: '/mundana-theme-jekyll'
+disqus: 'demowebsite'
+email: 'wowthemesnet@gmail.com'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    sal:
+      name:           Maxime Gueriau
+      avatar:         /assets/images/maxime-gueriau.jpg
+      role:           "Professeur assistant"
+      bio:            "Description Professeur 1"
+      email:          maxime.gueriau@insa-rouen.fr
+      site:           http://maxime.gueriau.fr/
+      twitter:        https://twitter.com/wowthemesnet
+
+    jane:
+      name:           Samia Ainouz
+      avatar:         /assets/images/samia-ainouz.jpg
+      role:           "Professeure titulaire"
+      bio:            "Description Professeur 2"
+      email:          samia.ainouz@insa-rouen.fr
+      site:           https://pagesperso.litislab.fr/sainouz/
+      twitter:        https://twitter.com/wowthemesnet
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+  
+# Paginate
+paginate: 10
+
+livereload: true 
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

@@ -1,0 +1,17 @@
+- name: LiDAR OS1-32 et Xsens IMU
+  id: capteur1
+  description: >
+    Le LiDAR (Light Detection and Ranging) est une méthode de télédétection utilisée pour examiner la surface
+    de la terre. Nous avons 2 types de LiDAR OS1, l’un est le capteur OS-1-32 et l’autre le capteur OS-1-64.
+  link: https://example.com
+  image:  http://placehold.it/100x100
+  first: true
+
+- name: Kit Cameras et Jetson AGX Xavier
+  id: capteur2
+  description: >
+    Voici quelques applications de la caméra ZED 2 (STEREOLAB), de la caméra polarimétrique, infrarouge et de
+    la carte Jetson AGX Xavier, que nous avons mises en œuvre à l’aide du kit de développement logiciel :
+  link: https://example.com
+  image: http://placehold.it/100x100
+  first: false

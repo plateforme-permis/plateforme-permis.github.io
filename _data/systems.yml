@@ -1,0 +1,8 @@
+- name: OptiTrack
+  id: system1
+  description: >
+    Le système optique de capture de mouvements calcule la position et l’orientation de chaque caméra et les quantités 
+    de distorsions dans les images capturées, et elles sont utilisées pour construire un volume de capture 3D.
+  link: https://example.com
+  image:  http://placehold.it/100x100
+  first: true
