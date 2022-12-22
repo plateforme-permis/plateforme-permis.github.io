@@ -65,7 +65,7 @@ N'hésitez pas à supporter le projet <i class="fa fa-heart text-danger"></i>.
 				  	<div class="card-body">
 				    	<h5 class="card-title">{{ capteur.name }}</h5>
 				    	<p class="card-text">{{ capteur.description }}</p>
-				    	<a href="#" class="btn btn-primary">Découvrir &rarr;</a>
+				    	<a href="{{ capteur.link }}" class="btn btn-primary">Découvrir &rarr;</a>
 				  	</div>
 				  </div>
 	             {% endfor %}         
@@ -77,7 +77,7 @@ N'hésitez pas à supporter le projet <i class="fa fa-heart text-danger"></i>.
 				  	    <div class="card-body">
 				    	  <h5 class="card-title">{{ system.name }}</h5>
 				    	  <p class="card-text">{{ system.description }}</p>
-				    	  <a href="#" class="btn btn-primary">Découvrir &rarr;</a>
+				    	  <a href="{{ system.link }}" class="btn btn-primary">Découvrir &rarr;</a>
 				  	    </div>
 				      </div>
                     {% endfor %}
