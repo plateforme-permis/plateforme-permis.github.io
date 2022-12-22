@@ -3,7 +3,7 @@
   description: >
     Le RB-Vogui est un robot utilisé pour plusieurs applications (scènes extérieures, la logitique et le transport
     indoor, etc) grâce à sa haute agilité. Le RB-Vogui peut exécuter plusieurs tâches.
-  link: https://example.com
+  link: https://robotnik.eu/products/mobile-robots/rb-vogui-en/
   image:  http://placehold.it/100x100
 
 - name: SUMMIT-XL MOBILE
@@ -11,7 +11,7 @@
   description: >
     Le SUMMIT-XL est une plateforme robotique pour le développement d’applications (logistique, transport
     intérieur/extérieur, inspection, agriculture, etc.)
-  link: https://example.com
+  link: https://robotnik.eu/products/mobile-robots/summit-xl-en-2/
   image: http://placehold.it/100x100
 
 - name: Bras robotique 6 axes Niryo Ned
@@ -19,7 +19,7 @@
   description: >
     Le Bras Niryo Ned peut reproduire n’importe quel mouvement avec une précision de 0.5mm. Il a une grande
     capacité à aggripper et manipuler n’importe quel objet et une agilité de mouvements dans tous les sens. 
-  link: https://example.com
+  link: https://niryo.com/fr/product/ned-fr/
   image:  http://placehold.it/100x100
 
 - name: Tiago
@@ -28,5 +28,5 @@
     Le robot TIAGo combine des compétences en matière de perception, de navigation, de manipulation et d’interaction
     homme-robot. TIAGo est un robot de service mobile conçu pour travailler dans des environnements intérieurs.
     Le volume total de l’espace de travail du bras avec la base fixe est de 9m3.
-  link: https://example.com
+  link: https://pal-robotics.com/robots/tiago/
   image: http://placehold.it/100x100
