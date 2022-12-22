@@ -19,23 +19,47 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    mgueriau:
       name:           Maxime Gueriau
       avatar:         assets/images/maxime-gueriau.jpg
       role:           "Professeur assistant"
       bio:            "Description Professeur 1"
       email:          maxime.gueriau@insa-rouen.fr
       site:           http://maxime.gueriau.fr/
-      twitter:        https://twitter.com/wowthemesnet
 
-    jane:
+    sainouz:
       name:           Samia Ainouz
       avatar:         assets/images/samia-ainouz.jpg
       role:           "Professeure titulaire"
       bio:            "Description Professeur 2"
       email:          samia.ainouz@insa-rouen.fr
       site:           https://pagesperso.litislab.fr/sainouz/
-      twitter:        https://twitter.com/wowthemesnet
+      
+    rboutteau:
+      name:           Remi Boutteau
+      avatar:         
+      role:           "Professeur titulaire"
+      bio:            "Description Professeur 3"
+      email:          remi.boutteau@univ-rouen.fr
+      site:           
+      
+    akumar:
+      name:           Amit Kumar
+      avatar:         
+      role:           "Professeur titulaire"
+      bio:            "Description Professeur 4"
+      email:          amit.kumar@insa-rouen.fr
+      site:        
+      
+    iargui:
+      name:           Imane Argui
+      avatar:         
+      role:           "Professeure titulaire"
+      bio:            "Description Professeur 5"
+      email:          imane.argui@insa-rouen.fr 
+      site:   
+    
+      
  
 # Defaults
 defaults:
