@@ -2,7 +2,7 @@
 title: "Présentation"
 layout: page-sidebar
 permalink: "/about.html"
-image: "/assets/images/robot.jpg"
+image: "/assets/images/lab.jpg"
 comments: false
 ---
 
