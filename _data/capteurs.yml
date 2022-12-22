@@ -3,7 +3,7 @@
   description: >
     Le LiDAR (Light Detection and Ranging) est une méthode de télédétection utilisée pour examiner la surface
     de la terre. Nous avons 2 types de LiDAR OS1, l’un est le capteur OS-1-32 et l’autre le capteur OS-1-64.
-  link: https://example.com
+  link: https://ouster.com/products/scanning-lidar/os1-sensor/
   image:  http://placehold.it/100x100
   first: true
 
@@ -12,6 +12,6 @@
   description: >
     Voici quelques applications de la caméra ZED 2 (STEREOLAB), de la caméra polarimétrique, infrarouge et de
     la carte Jetson AGX Xavier, que nous avons mises en œuvre à l’aide du kit de développement logiciel :
-  link: https://example.com
+  link: https://www.stereolabs.com/zed-2/
   image: http://placehold.it/100x100
   first: false
