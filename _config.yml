@@ -3,6 +3,7 @@ name: 'PERMIS'
 description: 'Plateforme Expérimentale en Robotique Mobile Intelligente et Systems.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/logo.png'
 baseurl: ""
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
