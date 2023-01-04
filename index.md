@@ -5,7 +5,6 @@ permalink: "/about.html"
 image: "/assets/images/lab.jpg"
 comments: false
 description: "Plateforme Expérimentale en Robotique Mobile Intelligente et Systèmes"
-permalink: "/"
 ---
 
 <h3 class="border-bottom mb-4">Le projet</h3>
