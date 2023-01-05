@@ -1,5 +1,5 @@
 ---
-title: "Actualites"
+title: "Actualités"
 layout: default
 pagination:
     enabled: true
@@ -8,6 +8,8 @@ permalink: "/news.html"
 
 
 <div class="container">
+    
+{% if page.url == "/news.html" %}
     
     
     
@@ -152,6 +154,11 @@ permalink: "/news.html"
 {% endif %}
 {% endfor %}
 
+
+    
+
+
+{% endif %} <!--endif page url is / -->
     
 
 
