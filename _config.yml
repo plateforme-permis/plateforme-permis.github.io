@@ -3,8 +3,7 @@ name: 'PERMIS'
 description: 'Plateforme Expérimentale en Robotique Mobile Intelligente et Systems.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-logo: 'assets/images/logo.png'
-baseurl: ""
+baseurl: '/mundana-theme-jekyll'
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -20,47 +19,23 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    mgueriau:
+    sal:
       name:           Maxime Gueriau
-      avatar:         assets/images/maxime-gueriau.jpg
+      avatar:         /assets/images/maxime-gueriau.jpg
       role:           "Professeur assistant"
       bio:            "Description Professeur 1"
       email:          maxime.gueriau@insa-rouen.fr
       site:           http://maxime.gueriau.fr/
+      twitter:        https://twitter.com/wowthemesnet
 
-    sainouz:
+    jane:
       name:           Samia Ainouz
-      avatar:         assets/images/samia-ainouz.jpg
+      avatar:         /assets/images/samia-ainouz.jpg
       role:           "Professeure titulaire"
       bio:            "Description Professeur 2"
       email:          samia.ainouz@insa-rouen.fr
       site:           https://pagesperso.litislab.fr/sainouz/
-      
-    rboutteau:
-      name:           Remi Boutteau
-      avatar:         
-      role:           "Professeur titulaire"
-      bio:            "Description Professeur 3"
-      email:          remi.boutteau@univ-rouen.fr
-      site:           
-      
-    akumar:
-      name:           Amit Kumar
-      avatar:         assets/images/amit-kumar.jpg
-      role:           "Professeur titulaire"
-      bio:            "Description Professeur 4"
-      email:          amit.kumar@insa-rouen.fr
-      site:        
-      
-    iargui:
-      name:           Imane Argui
-      avatar:         assets/images/imane-argui.jpg
-      role:           "Professeure titulaire"
-      bio:            "Description Professeur 5"
-      email:          imane.argui@insa-rouen.fr 
-      site:   
-    
-      
+      twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:
@@ -70,8 +45,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: mgueriau
-      avatar: assets/images/maxime-gueriau.jpg
+      author: sal
+      avatar: /assets/images/avatar1.jpg
       
   # all pages
   - scope:
