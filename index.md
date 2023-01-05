@@ -4,7 +4,7 @@ layout: page-sidebar
 image: "/assets/images/robot.jpg"
 comments: false
 description: "Plateforme Expérimentale en Robotique Mobile Intelligente et Systèmes"
-permalink: "/"
+permalink: "/index.html"
 ---
 
 <h3 class="border-bottom mb-4">Le projet</h3>
